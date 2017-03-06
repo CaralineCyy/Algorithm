@@ -45,7 +45,7 @@ function bubble_sort_two($arr){
 	}
 }
 
-$arr = array(1,3,6,89,4,45,67,12,65,23);
-print_r(bubble_sort_one($arr));
-echo '<br/>';
-print_r(bubble_sort_two($arr));
+// $arr = array(1,3,6,89,4,45,67,12,65,23);
+// print_r(bubble_sort_one($arr));
+// echo '<br/>';
+// print_r(bubble_sort_two($arr));

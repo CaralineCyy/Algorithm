@@ -1,11 +1,13 @@
 <?php
+//快速排序 是基于递归的 最差的时间复杂度和冒泡排序一样。
+//平均时间复杂度为o(N*(logN))
 //函数实现快速排序
 function quick_sort($arr)
 {
 	//判断参数是否是一个数组
 	if(!is_array($arr)) {
 		return false;
-	}
+	}ji
 	//递归出口:数组长度为1，直接返回数组
 	$length=count($arr);
 	if($length<=1){
