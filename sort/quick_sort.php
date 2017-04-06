@@ -7,7 +7,7 @@ function quick_sort($arr)
 	//判断参数是否是一个数组
 	if(!is_array($arr)) {
 		return false;
-	}ji
+	}
 	//递归出口:数组长度为1，直接返回数组
 	$length=count($arr);
 	if($length<=1){
@@ -32,7 +32,7 @@ function quick_sort($arr)
 	$left=quick_sort($left);
 	$right=quick_sort($right);
 	//将所有的结果合并
-	echo "1<br/>";
+	
 	return array_merge($left,array($center),$right);
 }
         
